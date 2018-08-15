@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 11554627329,
+              "duration": 28824658596,
               "status": "passed"
             },
             "line": 6,
@@ -30,8 +30,9 @@
           },
           {
             "result": {
-              "duration": 17399384,
-              "status": "passed"
+              "duration": 82754994,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[Free CRM software in the cloud powers sales and customer] service\u003e but was:\u003c[#1 Free CRM software in the cloud for sales and] service\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepDefinition.ContactDataTableWithMap.title_of_login_page_is_freeCRM(ContactDataTableWithMap.java:34)\r\n\tat ✽.When Title of login page is freeCRM(D:/Workspace/FreeCrmBDDDataDriven/src/main/java/Features/createContactDataTableWithMap.feature:7)\r\n",
+              "status": "failed"
             },
             "line": 7,
             "name": "Title of login page is freeCRM",
@@ -42,8 +43,7 @@
           },
           {
             "result": {
-              "duration": 365147982,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 8,
             "name": "User enters username and passsword",
@@ -70,8 +70,7 @@
           },
           {
             "result": {
-              "duration": 7697407450,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "User clicks on Login button",
@@ -82,8 +81,7 @@
           },
           {
             "result": {
-              "duration": 18186067,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 12,
             "name": "User is on homepage",
@@ -94,8 +92,7 @@
           },
           {
             "result": {
-              "duration": 690549488,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 13,
             "name": "User opens the new contact page",
@@ -106,8 +103,7 @@
           },
           {
             "result": {
-              "duration": 11641009031,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 14,
             "name": "User added firstName and lastName and position and saving data",
@@ -152,8 +148,7 @@
           },
           {
             "result": {
-              "duration": 608046256,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "Close the browser",
@@ -171,4 +166,4 @@
     "keyword": "Feature",
     "uri": "D:/Workspace/FreeCrmBDDDataDriven/src/main/java/Features/createContactDataTableWithMap.feature"
   }
-]
+]]

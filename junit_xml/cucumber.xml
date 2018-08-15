@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="32.592373">
-<testcase classname="Create contact with examples" name="Create multiple contacts" time="32.592373">
-<system-out><![CDATA[Given User is already on login page.........................................passed
-When Title of login page is freeCRM.........................................passed
-Then User enters username and passsword.....................................passed
-Then User clicks on Login button............................................passed
-Then User is on homepage....................................................passed
-Then User opens the new contact page........................................passed
-Then User added firstName and lastName and position and saving data.........passed
-Then Close the browser......................................................passed
-]]></system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="28.907414">
+<testcase classname="Create contact with examples" name="Create multiple contacts" time="28.907414">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Free CRM software in the cloud powers sales and customer] service&gt; but was:&lt;[#1 Free CRM software in the cloud for sales and] service&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepDefinition.ContactDataTableWithMap.title_of_login_page_is_freeCRM(ContactDataTableWithMap.java:34)&#13;&#10;&#9;at ✽.When Title of login page is freeCRM(D:/Workspace/FreeCrmBDDDataDriven/src/main/java/Features/createContactDataTableWithMap.feature:7)&#13;&#10;"><![CDATA[Given User is already on login page.........................................passed
+When Title of login page is freeCRM.........................................failed
+Then User enters username and passsword.....................................skipped
+Then User clicks on Login button............................................skipped
+Then User is on homepage....................................................skipped
+Then User opens the new contact page........................................skipped
+Then User added firstName and lastName and position and saving data.........skipped
+Then Close the browser......................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Free CRM software in the cloud powers sales and customer] service> but was:<[#1 Free CRM software in the cloud for sales and] service>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepDefinition.ContactDataTableWithMap.title_of_login_page_is_freeCRM(ContactDataTableWithMap.java:34)
+	at ✽.When Title of login page is freeCRM(D:/Workspace/FreeCrmBDDDataDriven/src/main/java/Features/createContactDataTableWithMap.feature:7)
+]]></failure>
 </testcase>
 </testsuite>
