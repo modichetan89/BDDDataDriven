@@ -1,4 +1,4 @@
-Feature: Create contact with examples
+Feature: Create contact with examples testing
 
 Scenario Outline: Create multiple contacts 
 
