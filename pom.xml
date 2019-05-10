@@ -64,6 +64,7 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+		<!-- https:/ -->
 		<dependency>
 			<groupId>net.masterthought</groupId>
 			<artifactId>cucumber-reporting</artifactId>
