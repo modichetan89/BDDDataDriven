@@ -1,5 +1,4 @@
-Feature: Create contact with examples development
-
+Feature: Create contact with examples
 Scenario Outline: Create multiple contacts 
 
 Given User is already on login page
