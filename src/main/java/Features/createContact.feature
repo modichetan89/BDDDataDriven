@@ -1,7 +1,8 @@
-Feature: Create contact with examples
+Feature: Create contact with examples testing
+
 Scenario Outline: Create multiple contacts 
 
-Given User is already on login page
+Given User is already on login page test
 When Title of login page is freeCRM
 Then User enters "<username>" and "<password>"
 Then User clicks on Login button
